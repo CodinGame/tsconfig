@@ -1,0 +1,27 @@
+{
+  "name": "@codingame/tsconfig",
+  "version": "0.0.0-semantic-release",
+  "description": "Codingame typescript config",
+  "private": false,
+  "main": "tsconfig.json",
+  "author": "",
+  "license": "ISC",
+  "files": [
+    "tsconfig.json"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
+  "release": {
+    "extends": "@codingame/semantic-release-config-github"
+  },
+  "volta": {
+    "node": "25.2.0",
+    "npm": "11.6.2"
+  },
+  "devDependencies": {
+    "@codingame/commitlint-config-codingame": "^1.1.1",
+    "@codingame/semantic-release-config-github": "^2.1.1"
+  }
+}
